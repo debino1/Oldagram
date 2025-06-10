@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    overflow-x:hidden;
+}
+
+/* typography */
+
+p{
+    font-weight: 700;
+}
+
+p.location, p.comment{
+    font-weight: 400;
+}
+
+/* layout */
+
+.container {
+    margin-bottom:48px;
+}
+
+.icons, .likes, .comment-section{
+    margin:8px 16px;
+}
+
+.likes, .comment-section{
+    margin:0px 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C4C4C4;
+    padding:8px 16px;
+}
+
+
+.logo{
+    height:60px;
+}
+
+.avatar{
+    height: 60px;
+    border-radius: 100px;
+}
+
+.account {
+    margin: 8px 16px;
+    display: flex;
+    align-items: center; 
+    max-width:100%;
+}
+
+.account .avatar {
+    margin-right: 8px;
+}
+
+.name{
+    margin-bottom: 0px;
+}
+
+.location{
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.post{
+    width:100%;
+    display: block;
+}
+
+.icons {
+    margin-top: 16px;
+}
+
+.icons img{
+    height: 30px;
+    padding-right:16px;
+}
+
+.comment-section{
+    display: flex;
+    flex:column;
+}
+
+.username{
+    padding-right: 5px;
+}
+
+
+/* links */
+a:hover{
+    opacity:20%;
+}
+
+
+
+
+
+
